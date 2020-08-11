@@ -1,0 +1,8 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'application'
+    id 'jacoco'
+}
+
+apply from: "$rootDir/gradle/sub-project-config.gradle"
